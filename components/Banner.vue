@@ -1,5 +1,5 @@
 <template>
-  <div style="background: url('https://c4.wallpaperflare.com/wallpaper/978/246/414/scheme-green-shadows-light-wallpaper-preview.jpg') no-repeat; background-size: cover; height: 450px">
+  <div class="banner">
     <a class="flex justify-start items-start" href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por pikisuperstar - www.freepik.es</a>
     <div class="container mx-auto px-4 h-full flex items-center justify-center">
       <div>
@@ -62,5 +62,9 @@ export default {
 </script>
 
 <style scoped>
-
+  .banner {
+    background: url('/img/banner.webp') no-repeat;
+    background-size: cover;
+    height: 450px
+  }
 </style>
