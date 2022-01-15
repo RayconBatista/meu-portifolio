@@ -16,14 +16,11 @@
           <div v-show="experience" class="w-full md:w-1/2 lg:w-3/5 px-2">
             <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow shadow-pricing py-8 px-6 sm:p-10 lg:py-8 lg:px-4 xl:p-10 mb-10">
               <h2 class="text-primary font-semibold text-lg block mb-1">
-                Full stack Web Developer
+                Desenvolvedor FullStack - Laravel, Vue e Flutter
               </h2>
 
               <p class="font-bold bg-green-300 sm:w-1/3  p-1 rounded text-dark mb-5 text-[42px]">
                 2020 - 2021
-              </p>
-              <p class="text-base text-body-color pb-8 mb-8 border-b border-[#F2F2F2]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
               </p>
             </div>
           </div>
@@ -36,9 +33,6 @@
                 <p class="font-bold bg-green-300 sm:w-1/3  p-1 rounded text-dark mb-5 text-[42px]">
                   Cursando
                 </p>
-                <p class="text-base text-body-color pb-8 mb-8 border-b border-[#F2F2F2]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-                </p>
               </article>
               <article>
                 <h2 class="text-primary font-semibold text-lg block mb-1">
@@ -46,9 +40,6 @@
                 </h2>
                 <p class="font-bold bg-green-300 sm:w-1/3 p-1 rounded text-dark mb-5 text-[42px]">
                   2016 - 2018
-                </p>
-                <p class="text-base text-body-color pb-8 mb-8 border-b border-[#F2F2F2]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
                 </p>
               </article>
             </div>

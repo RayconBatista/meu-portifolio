@@ -1,11 +1,11 @@
 <template>
   <div>
     <!-- Banner -->
-    <Banner />
+<!--    <Banner />-->
     <!-- /Banner -->
 
     <!-- Biography -->
-    <Biography class="mb-2"/>
+    <Biography />
     <!-- /Biography -->
 
     <div class="container max-w-5xl mx-auto px-4">
