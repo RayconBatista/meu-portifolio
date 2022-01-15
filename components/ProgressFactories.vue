@@ -7,14 +7,14 @@
       <div class="ml-4" v-for="(item, index) in data" :key="index">
         <div class="flex mb-2 items-center justify-between">
           <div>
-            <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-teal-600 bg-teal-200">
+            <span class="text-xs dark:text-white font-semibold inline-block py-1 px-2 uppercase rounded-full text-teal-600 bg-teal-200">
               {{ item.name }}
             </span>
           </div>
           <div class="text-right">
-          <span class="text-xs font-semibold inline-block text-teal-600">
-            {{  item.count }}
-          </span>
+            <span class="text-xs dark:text-white font-semibold inline-block text-teal-600">
+              {{  item.count }}
+            </span>
           </div>
         </div>
         <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-green-200">
