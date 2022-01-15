@@ -15,8 +15,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'Projeto de desenvolvimento de portfólio pessoal criado pela AlphaDev.',
+        content: 'Projeto de desenvolvimento de portfólio pessoal criado pela AlphaDev.',
       },
       {
         hid: 'og:type',
@@ -41,12 +40,12 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://rayconlimabatista.com.br/img/avatar_profile.jpeg',
+        content: 'https://rayconlimabatista.com.br/img/avatar_profile.webp',
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: 'https://rayconlimabatista.com.br/img/avatar_profile.jpeg',
+        content: 'https://rayconlimabatista.com.br/img/avatar_profile.webp',
       },
       {
         hid: 'og:description',
@@ -119,7 +118,7 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: 'https://rayconlimabatista.com.br/img/avatar_profile.jpeg',
+        content: 'https://rayconlimabatista.com.br/img/avatar_profile.webp',
       },
       {
         hid: 'twitter:url',

@@ -14,6 +14,10 @@
 
     <Experiences />
 
+    <button id="btnTop" @click.prevent="backToTop">
+      <font-awesome-icon :icon="['fa', 'arrow-circle-up']" />
+    </button>
+
     <!--    <div class="container mx-auto max-w-5xl">-->
     <!--      <div class="px-4 py-12 sm:py-16 md:py-20 xl:py-28">-->
     <!--        <div class="space-y-4 text-center mb-10 lg:mb-16">-->
@@ -39,7 +43,34 @@
 <script>
 export default {
   name: 'IndexPage',
-  components: {}
+  components: {},
+  jsonld() {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Raycon Lima Batista',
+      url: 'https://rayconlimabatista.com.br',
+      logo: 'https://rayconlimabatista.com.br/img/avatar_profile.webp',
+    }
+  },
+  mounted() {
+    window.onscroll = () => {
+      this.scroller()
+    }
+  },
+  methods: {
+    scroller() {
+      const button = document.getElementById('btnTop')
+      if (document.documentElement.scrollTop > 70) {
+        button.style.display = 'block'
+      } else {
+        button.style.display = 'none'
+      }
+    },
+    backToTop() {
+      document.documentElement.scrollTop = 0
+    },
+  },
 
 }
 </script>
