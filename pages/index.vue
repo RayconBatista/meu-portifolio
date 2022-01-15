@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Banner commented -->
-    <Banner />
+<!--    <Banner />-->
     <!-- /Banner -->
 
     <!-- Biography -->
