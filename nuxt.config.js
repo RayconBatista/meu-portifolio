@@ -23,9 +23,6 @@ export default {
   css: [
   ],
 
-  darkMode: 'class', // or 'media' or 'class'
-
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
@@ -39,11 +36,18 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode'
   ],
-
   colorMode: {
     classSuffix: '',
   },
 
+  theme: {
+    darkSelector: '.dark-mode'
+  },
+  variants: {
+    backgroundColor: ["dark", "dark-hover", "dark-group-hover", "dark-even", "dark-odd", "hover", "responsive"],
+    borderColor: ["dark", "dark-focus", "dark-focus-within", "hover", "responsive"],
+    textColor: ["dark", "dark-hover", "dark-active", "hover", "responsive"]
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios

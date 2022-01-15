@@ -19,6 +19,7 @@
               <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium" to="/contatos">
                 Contatos
               </nuxt-link>
+              <AppDarkModeToggle />
             </div>
           </div>
         </div>
@@ -43,13 +44,13 @@
     <div class="md:hidden" v-if="showMenu" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <nuxt-link to="/" :exact-active-class="active ? 'bg-gray-900' : ''" class=" block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Home
         </nuxt-link>
-        <nuxt-link to="/about" :exact-active-class="active ? 'bg-gray-900' : ''" class=" block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/about" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Sobre
         </nuxt-link>
-        <nuxt-link to="/contatos" :exact-active-class="active ? 'bg-gray-900' : ''" class=" block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/contatos" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Contatos
         </nuxt-link>
       </div>

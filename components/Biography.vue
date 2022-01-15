@@ -2,7 +2,7 @@
   <div class="container max-w-6xl mx-auto px-4 py-20">
     <div class="flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0 lg:space-x-10">
       <div class="flex-shrink-0 lg:ml-auto mb-5 lg:mb-0 mt-4">
-        <img class="w-full md:w-3/5 rounded-full border-4 border-green-600" src="https://avatars.githubusercontent.com/u/49953505?v=4" alt="">
+        <img width="250" height="250" class="w-full md:w-3/5 rounded-full border-4 border-green-600" src="/img/avatar_profile.webp" alt="Raycon Lima">
       </div>
       <div class="w-full lg:w-1/2">
         <div class="space-y-5 sm:space-y-6">
