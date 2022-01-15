@@ -41,12 +41,12 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/img/avatar_profile.jpeg',
+        content: 'https://rayconlimabatista.com.br/img/avatar_profile.jpeg',
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: '/img/avatar_profile.jpeg',
+        content: 'https://rayconlimabatista.com.br/img/avatar_profile.jpeg',
       },
       {
         hid: 'og:description',
@@ -119,8 +119,7 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content:
-          'https://rayconlimabatista.com.br/assets/img/avatar_profile.jpeg',
+        content: 'https://rayconlimabatista.com.br/img/avatar_profile.jpeg',
       },
       {
         hid: 'twitter:url',
