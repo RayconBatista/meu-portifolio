@@ -1,23 +1,12 @@
+import meta from './utils/meta'
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
+  target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'meu-portifolio',
-    htmlAttrs: {
-      lang: 'en'
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/img/logo.png' }
-    ]
-  },
+  head: meta,
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -36,8 +25,11 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode'
   ],
+
   colorMode: {
     classSuffix: '',
+    preference: 'dark',
+    fallback: 'dark'
   },
 
   theme: {
@@ -53,6 +45,17 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
+
+  robots: [
+    {
+      UserAgent: '*',
+      Sitemap: process.env.BASE_URL + '/sitemap.xml',
+      Allow: '/'
+    }
+  ],
+  sitemap: {
+    hostname: process.env.BASE_URL
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
