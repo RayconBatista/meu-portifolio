@@ -5,9 +5,9 @@
     >
       <div class="flex flex-wrap justify-center">
         <ul class="flex items-center space-x-4">
-          <li><nuxt-link to="/" >Home</nuxt-link></li>
-          <li><nuxt-link to="/" >Sobre</nuxt-link></li>
-          <li><nuxt-link to="/" >Contato</nuxt-link></li>
+          <li><nuxt-link class="dark:text-white" to="/" >Home</nuxt-link></li>
+          <li><nuxt-link class="dark:text-white" to="/" >Sobre</nuxt-link></li>
+          <li><nuxt-link class="dark:text-white" to="/" >Contato</nuxt-link></li>
         </ul>
       </div>
       <div class="flex justify-center mt-4 lg:mt-0">

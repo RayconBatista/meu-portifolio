@@ -14,7 +14,7 @@
         </div>
         <div class="flex flex-wrap justify-center mx-auto">
           <div v-show="experience" class="w-full md:w-1/2 lg:w-3/5 px-2">
-            <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow shadow-pricing py-8 px-6 sm:p-10 lg:py-8 lg:px-4 xl:p-10 mb-10">
+            <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow py-8 px-6 sm:p-10 lg:py-8 lg:px-4 xl:p-10 mb-10">
               <h2 class="text-primary font-semibold text-lg block mb-1">
                 Desenvolvedor FullStack - Laravel, Vue e Flutter
               </h2>

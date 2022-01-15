@@ -6,9 +6,9 @@
       </div>
       <div class="w-full lg:w-1/2">
         <div class="space-y-5 sm:space-y-6">
-          <h3 class="text-3xl md:text-4xl font-semibold">Meu nome é Raycon</h3>
-          <div class="text-sm text-gray-400 font-medium">Desenvolvedor FullStack</div>
-          <p class="w-full sm:w-4/5 text-lg text-justify">
+          <h3 class="text-3xl dark:text-white md:text-4xl font-semibold">Meu nome é Raycon</h3>
+          <div class="text-sm dark:text-white text-gray-400 font-medium">Desenvolvedor FullStack</div>
+          <p class="w-full dark:text-white sm:w-4/5 text-lg text-justify">
             Formando-me na área de desenvolvimento de sistemas e com experiência como Programador em Manaus.
             E no tempo livre, atuo no mercado como freelancer, oferecendo soluções completas para sistemas web.
           </p>

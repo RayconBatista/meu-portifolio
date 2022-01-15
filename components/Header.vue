@@ -10,16 +10,15 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-6">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class=" px-3 py-2 rounded-md text-sm font-medium" to="/">
+              <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium" to="/">
                 Home
               </nuxt-link>
-              <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class=" px-3 py-2 rounded-md text-sm font-medium" to="/about">
+              <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium" to="/about">
                 Sobre
               </nuxt-link>
-              <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class=" px-3 py-2 rounded-md text-sm font-medium" to="/contatos">
+              <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium" to="/contatos">
                 Contatos
               </nuxt-link>
-
             </div>
           </div>
         </div>
@@ -59,6 +58,8 @@
 </template>
 <script>
 export default {
+  components: {},
+
   data() {
     return {
       showMenu: false,

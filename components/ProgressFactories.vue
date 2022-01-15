@@ -1,7 +1,7 @@
 <template>
   <div class="mt-4">
     <div class="text-center mb-8 lg:mb-8 pt-4">
-      <h2 class="text-4xl md:text-5xl font-semibold">Tecnologias que uso</h2>
+      <h2 class="text-4xl dark:text-white md:text-5xl font-semibold">Tecnologias que uso</h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2">
       <div class="ml-4" v-for="(item, index) in data" :key="index">

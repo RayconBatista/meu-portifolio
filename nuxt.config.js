@@ -23,6 +23,9 @@ export default {
   css: [
   ],
 
+  darkMode: 'class', // or 'media' or 'class'
+
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
@@ -34,7 +37,12 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
   ],
+
+  colorMode: {
+    classSuffix: '',
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
