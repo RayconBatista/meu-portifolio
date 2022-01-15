@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Banner -->
+    <!-- Banner commented -->
 <!--    <Banner />-->
     <!-- /Banner -->
 
