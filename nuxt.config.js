@@ -3,10 +3,17 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
-  target: 'static',
-
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: meta,
+  head: {
+    title: 'meu-portifolio',
+    htmlAttrs: {
+      lang: 'en'
+    },
+    meta: meta,
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/img/logo.png' }
+    ]
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
