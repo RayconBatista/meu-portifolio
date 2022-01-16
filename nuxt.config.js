@@ -21,7 +21,6 @@ export default {
       },
       {
         hid: 'google-site-verification',
-        property: 'google-site-verification',
         content: 'ipzqmw-7RV58VGch4OzhK6hZmKEph-u1qeeZqXRBTac',
       },
       {
