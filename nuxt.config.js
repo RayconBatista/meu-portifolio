@@ -12,6 +12,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { rel: 'preload', href: '/img/avatar_profile.webp', as: 'image'},
+      { rel: 'preload', href: '/img/banner.webp', as: 'image'},
+      { rel: 'preload', href: '/img/logo.webp', as: 'image'},
       {
         hid: 'description',
         name: 'description',
