@@ -13,8 +13,8 @@ export default {
   jsonld() {
     return {
       "@context": "https://schema.org",
-      '@type': 'AboutPage',
-      author: 'Raycon Lima Batista',
+      '@type' : 'Person',
+      'name'  : 'Raycon Lima Batista',
     }
   }
 }
