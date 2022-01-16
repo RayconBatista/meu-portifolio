@@ -20,6 +20,11 @@ export default {
         content: 'Projeto de desenvolvimento de portfólio pessoal criado pela AlphaDev.',
       },
       {
+        hid: 'google-site-verification',
+        property: 'google-site-verification',
+        content: 'ipzqmw-7RV58VGch4OzhK6hZmKEph-u1qeeZqXRBTac',
+      },
+      {
         hid: 'og:type',
         property: 'og:type',
         content: 'article',
@@ -125,11 +130,6 @@ export default {
         hid: 'twitter:url',
         property: 'twitter:url',
         content: 'https://rayconlimabatista.com.br',
-      },
-      {
-        hid: 'google-site-verification',
-        property: 'google-site-verification',
-        content: 'ipzqmw-7RV58VGch4OzhK6hZmKEph-u1qeeZqXRBTac',
       },
     ],
     link: [
