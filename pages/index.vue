@@ -31,11 +31,11 @@ export default {
   components: {},
   jsonld() {
     return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      name: 'Raycon Lima Batista',
-      url: 'https://rayconlimabatista.com.br',
-      logo: 'https://rayconlimabatista.com.br/img/avatar_profile.jpeg',
+      "@context": "https://schema.org",
+      "@type"   : "Organization",
+      "name"    : "Raycon Lima Batista",
+      "url"     : "https://rayconlimabatista.com.br",
+      "logo"    : "https://rayconlimabatista.com.br/img/avatar_profile.jpeg",
     }
   },
 }

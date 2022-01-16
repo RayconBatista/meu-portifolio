@@ -14,6 +14,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'theme-color' },
+      { itemprop:"logo", src:"/img/logo.webp" },
       {
         hid: 'description',
         name: 'description',
@@ -47,12 +48,12 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/img/avatar_profile.jpeg',
+        content: '/img/avatar_profile.webp',
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: '/img/avatar_profile.jpeg',
+        content: '/img/avatar_profile.webp',
       },
       {
         hid: 'og:description',
