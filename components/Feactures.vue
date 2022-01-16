@@ -14,7 +14,7 @@
           </div>
           <article class="space-y-4">
             <header>
-              <h4 class="text-2xl md:text-3xl font-semibold">Aplicação web</h4>
+              <h2 class="text-2xl md:text-3xl font-semibold">Aplicação web</h2>
             </header>
             <main>
               <p>Sites pessoais ou comercial, landing pages, blogs e sistemas para internet.</p>
@@ -29,7 +29,7 @@
           </div>
           <article class="space-y-4">
             <header>
-              <h4 class="text-2xl md:text-3xl font-semibold">SEO</h4>
+              <h2 class="text-2xl md:text-3xl font-semibold">SEO</h2>
             </header>
             <main>
               <p>Seu site com conjuntos de técnicas em seu código, fazendo com que seu projeto apareça na melhor forma possível em buscas de pesquisas. </p>
@@ -44,7 +44,7 @@
           </div>
           <article class="space-y-4">
             <header>
-              <h4 class="text-2xl md:text-3xl font-semibold">Responsivo</h4>
+              <h2 class="text-2xl md:text-3xl font-semibold">Responsivo</h2>
             </header>
             <main>
               <p>Meus layouts se adaptam em qualquer dispositivo, grande ou pequeno. </p>
@@ -59,7 +59,7 @@
           </div>
           <article class="space-y-4">
             <header>
-              <h4 class="text-2xl md:text-3xl font-semibold">Rápido</h4>
+              <h2 class="text-2xl md:text-3xl font-semibold">Rápido</h2>
             </header>
             <main>
               <p>Carregamentos rápidos e interação sem atrasos. </p>
