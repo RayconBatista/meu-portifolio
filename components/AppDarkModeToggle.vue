@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <button v-if="$colorMode.preference === 'dark'" @click="$colorMode.preference = 'light'">
+    <button v-if="$colorMode.preference === 'dark'" @click="$colorMode.preference = 'light'" :title="$colorMode.preference === 'dark' ? 'light' : 'dark'">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-5 w-5"
@@ -18,7 +18,7 @@
       </svg>
     </button>
 
-    <button v-if="$colorMode.preference === 'light'" @click="$colorMode.preference = 'dark'">
+    <button v-if="$colorMode.preference === 'light'" @click="$colorMode.preference = 'dark'" :title="$colorMode.preference === 'light' ? 'dark' : 'light'">
         <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-5 w-5"

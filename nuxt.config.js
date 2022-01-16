@@ -185,10 +185,13 @@ export default {
 
   robots: [
     {
+      UserAgent: 'Googlebot',
+      Disallow: '/user',
+    },
+    {
       UserAgent: '*',
-      Sitemap: process.env.BASE_URL + '/sitemap.xml',
-      Allow: '/'
-    }
+      Disallow: '/admin',
+    },
   ],
   sitemap: {
     hostname: process.env.BASE_URL
