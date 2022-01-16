@@ -199,17 +199,12 @@ export default {
 
   sitemap: {
     hostname: 'https://rayconlimabatista.com.br',
-    gzip: true,
+    gzip: false,
     routes: [
       '/sobre',
       '/projetos',
       '/contato',
     ],
-  },
-
-  robots: {
-    UserAgent: 'Googlebot',
-    Allow: '/',
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
