@@ -5,8 +5,8 @@
     >
       <div class="flex flex-wrap justify-center">
         <ul class="flex items-center space-x-4">
-          <li><nuxt-link class="dark:text-white" to="/" >Home</nuxt-link></li>
-          <li><nuxt-link class="dark:text-white" to="/" >Sobre</nuxt-link></li>
+          <li><nuxt-link class="dark:text-white" to="/" >Inicio</nuxt-link></li>
+          <li><nuxt-link class="dark:text-white" to="/sobre" >Sobre</nuxt-link></li>
           <li><nuxt-link class="dark:text-white" to="/" >Contato</nuxt-link></li>
         </ul>
       </div>

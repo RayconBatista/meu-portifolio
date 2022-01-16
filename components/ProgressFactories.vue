@@ -1,7 +1,7 @@
 <template>
   <div class="mt-4">
     <div class="text-center mb-8 lg:mb-8 pt-4">
-      <h2 class="text-4xl dark:text-white md:text-5xl font-semibold">Tecnologias que uso</h2>
+      <h2 class="text-4xl dark:text-white md:text-5xl font-semibold">Minhas skills e Power UP's </h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2">
       <div class="ml-4" v-for="(item, index) in data" :key="index">
@@ -37,37 +37,49 @@ export default {
           count: '90%'
         },
         {
-          id: 2,
+          id: 9,
+          name: 'Docker',
+          count: '65%'
+        },
+
+        {
+          id: 3,
           name: 'CSS3',
           count: '90%'
         },
         {
-          id: 3,
+          id: 7,
+          name: 'Laravel',
+          count: '80%'
+        },
+        {
+          id: 2,
+          name: 'Tailwind',
+          count: '70%'
+        },
+        {
+          id: 8,
+          name: 'Vue',
+          count: '75%'
+        },
+
+        {
+          id: 4,
           name: 'Javascript',
           count: '75%'
         },
         {
-          id: 4,
+          id: 2,
+          name: 'Nuxt',
+          count: '75%'
+        },
+        {
+          id: 5,
           name: 'Jquery',
           count: '70%'
         },
         {
-          id: 5,
-          name: 'Laravel',
-          count: '75%'
-        },
-        {
-          id: 6,
-          name: 'Vue',
-          count: '70%'
-        },
-        {
-          id: 7,
-          name: 'Docker',
-          count: '65%'
-        },
-        {
-          id: 8,
+          id: 10,
           name: 'Flutter',
           count: '60%'
         },

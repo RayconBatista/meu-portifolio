@@ -10,13 +10,16 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-6">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium" to="/">
-                Home
+              <nuxt-link to="/" :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+                Inicio
               </nuxt-link>
-              <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium" to="/about">
+              <nuxt-link to="/sobre" :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Sobre
               </nuxt-link>
-              <nuxt-link :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium" to="/contatos">
+              <nuxt-link to="/projetos" :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+                Projetos
+              </nuxt-link>
+              <nuxt-link to="/contato" :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Contatos
               </nuxt-link>
               <AppDarkModeToggle />
@@ -51,10 +54,13 @@
         <nuxt-link to="/" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Home
         </nuxt-link>
-        <nuxt-link to="/about" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/sobre" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Sobre
         </nuxt-link>
-        <nuxt-link to="/contatos" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/projetos" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+          Projetos
+        </nuxt-link>
+        <nuxt-link to="/contato" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Contatos
         </nuxt-link>
       </div>

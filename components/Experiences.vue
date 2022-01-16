@@ -1,6 +1,6 @@
 <template>
   <div class="container max-w-8xl mx-auto px-4">
-    <section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] relative z-20 overflow-hidden">
+    <section class="lg:pt-[120px] pb-8 lg:pb-[90px] relative z-20 overflow-hidden">
       <div class="container">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full px-4">
@@ -12,8 +12,8 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap justify-center mx-auto">
-          <div v-show="experience" class="w-full md:w-1/2 lg:w-3/5 px-2">
+        <div class="flex flex-wrap justify-center container max-w-full mx-auto">
+          <div v-show="experience" class="w-full md:w-2/5 lg:w-4/5 px-2">
             <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow py-8 px-6 sm:p-10 lg:py-8 lg:px-4 xl:p-10 mb-10">
               <h2 class="text-primary font-semibold text-lg block mb-1">
                 Desenvolvedor FullStack - Laravel, Vue e Flutter
@@ -24,7 +24,7 @@
               </p>
             </div>
           </div>
-          <div v-show="academic" class="w-full md:w-1/2 lg:w-3/5 px-2">
+          <div v-show="academic" class="w-full md:w-2/5 lg:w-4/5 px-2">
             <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow shadow-pricing py-8 px-6 sm:p-10 lg:py-8 lg:px-4 xl:p-10 mb-10">
               <article>
                 <h2 class="text-primary font-semibold text-lg block mb-1">

@@ -1,22 +1,19 @@
 <template>
   <div>
     <!-- Banner commented -->
-<!--    <Banner />-->
+    <Banner />
     <!-- /Banner -->
 
     <!-- Biography -->
-    <Biography />
+<!--    <Biography />-->
     <!-- /Biography -->
+    <Feactures />
 
-    <div class="container max-w-5xl mx-auto px-4">
-      <ProgressFactories/>
-    </div>
+<!--    <div class="container max-w-6xl mx-auto px-4">-->
+<!--      <ProgressFactories/>-->
+<!--    </div>-->
 
     <Experiences />
-
-    <button id="btnTop" @click.prevent="backToTop">
-      <font-awesome-icon :icon="['fa', 'arrow-circle-up']" />
-    </button>
 
     <!--    <div class="container mx-auto max-w-5xl">-->
     <!--      <div class="px-4 py-12 sm:py-16 md:py-20 xl:py-28">-->
@@ -35,8 +32,6 @@
     <!--        </div>-->
     <!--      </div>-->
     <!--    </div>-->
-
-    <!--    <Feactures />-->
   </div>
 </template>
 
@@ -50,27 +45,8 @@ export default {
       '@type': 'Organization',
       name: 'Raycon Lima Batista',
       url: 'https://rayconlimabatista.com.br',
-      logo: 'https://rayconlimabatista.com.br/img/avatar_profile.webp',
+      logo: 'https://rayconlimabatista.com.br/img/avatar_profile.jpeg',
     }
   },
-  mounted() {
-    window.onscroll = () => {
-      this.scroller()
-    }
-  },
-  methods: {
-    scroller() {
-      const button = document.getElementById('btnTop')
-      if (document.documentElement.scrollTop > 70) {
-        button.style.display = 'block'
-      } else {
-        button.style.display = 'none'
-      }
-    },
-    backToTop() {
-      document.documentElement.scrollTop = 0
-    },
-  },
-
 }
 </script>
