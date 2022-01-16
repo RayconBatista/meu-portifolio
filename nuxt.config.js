@@ -179,16 +179,6 @@ export default {
     fallback: 'light',
     storageKey: 'nuxt-color-mode'
   },
-  // colorMode: {
-  //   preference: 'system', // default value of $colorMode.preference
-  //   fallback: 'light', // fallback value if not system preference found
-  //   hid: 'nuxt-color-mode-script',
-  //   globalName: '__NUXT_COLOR_MODE__',
-  //   componentName: 'ColorScheme',
-  //   classPrefix: '',
-  //   classSuffix: '-mode',
-  //   storageKey: 'nuxt-color-mode'
-  // },
 
   theme: {
     darkSelector: '.dark-mode'
@@ -202,16 +192,24 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/sitemap',
     'nuxt-lazy-load',
     'nuxt-responsive-loader'
   ],
+
   sitemap: {
-    filter ({ routes }) {
-      return routes.map(route => {
-        route.url = `${route.url}/`
-        return route
-      })
-    }
+    hostname: 'https://rayconlimabatista.com.br',
+    gzip: true,
+    routes: [
+      '/sobre',
+      '/projetos',
+      '/contato',
+    ],
+  },
+
+  robots: {
+    UserAgent: 'Googlebot',
+    Allow: '/',
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
