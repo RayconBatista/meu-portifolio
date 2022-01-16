@@ -1,5 +1,5 @@
 <template>
-  <div class="banner">
+  <div class="banner" lazy-background="/img/banner.webp">
     <a class="flex justify-start items-start" href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por pikisuperstar - www.freepik.es</a>
     <div class="container mx-auto px-4 h-full flex items-center justify-center">
       <div>
@@ -8,7 +8,9 @@
           <h1 class="text-gray-100 text-3xl">I'm Raycon Lima</h1>
           <ul class="flex flex-row justify-center" >
             <li v-for="(item, index) in data" :key="index">
-              <a :href="item.url"><img width="50" height="50" :src="item.img" :alt="item.name"/></a>
+              <a :href="item.url">
+                <img width="50" height="50" :data-src="item.img"  :alt="item.name" v-lazy-load/>
+              </a>
             </li>
           </ul>
         </div>

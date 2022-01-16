@@ -13,7 +13,7 @@
       <div class="flex justify-center mt-4 lg:mt-0">
         <ul class="flex flex-row justify-center" >
           <li v-for="(item, index) in data" :key="index">
-            <a :href="item.url"><img class="mr-2" width="30" height="30" :src="item.img" :alt="item.name"/></a>
+            <a :href="item.url"><img class="mr-2" width="30" height="30" :data-src="item.img"  :alt="item.name" v-lazy-load/></a>
           </li>
         </ul>
       </div>

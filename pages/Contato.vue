@@ -5,7 +5,7 @@
           <div class="text-center mb-8 lg:mb-8">
             <h2 class="text-4xl dark:text-white md:text-5xl font-semibold">Entre em contato</h2>
           </div>
-          <div class="space-y-3 shadow-xl">
+          <div class="space-y-3 shadow-xl mb-6">
             <Form />
           </div>
         </div>

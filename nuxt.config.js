@@ -149,8 +149,22 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@nuxt/image',
   ],
+
+  image: {
+    // The screen sizes predefined by `@nuxt/image`:
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+      '2xl': 1536
+    },
+  },
 
   colorMode: {
     classSuffix: '',
@@ -181,6 +195,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'nuxt-lazy-load'
   ],
 
   robots: [
@@ -194,7 +209,12 @@ export default {
     },
   ],
   sitemap: {
-    hostname: process.env.BASE_URL
+    filter ({ routes }) {
+      return routes.map(route => {
+        route.url = `${route.url}/`
+        return route
+      })
+    }
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
