@@ -40,12 +40,12 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://rayconlimabatista.com.br/img/avatar_profile.webp',
+        content: '/img/avatar_profile.jpeg',
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: 'https://rayconlimabatista.com.br/img/avatar_profile.webp',
+        content: '/img/avatar_profile.jpeg',
       },
       {
         hid: 'og:description',
@@ -112,8 +112,7 @@ export default {
       {
         hid: 'twitter:description',
         property: 'twitter:description',
-        content:
-          'Projeto de desenvolvimento de portfólio pessoal criado pela AlphaDev.',
+        content: 'Projeto de desenvolvimento de portfólio pessoal criado pela AlphaDev.',
       },
       {
         hid: 'twitter:image',
