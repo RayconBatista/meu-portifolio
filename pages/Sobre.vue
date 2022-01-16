@@ -10,13 +10,6 @@
 <script>
 export default {
   name: "Sobre.vue",
-  jsonld() {
-    return {
-      "@context": "https://schema.org",
-      '@type' : 'Person',
-      'name'  : 'Raycon Lima Batista',
-    }
-  }
 }
 </script>
 

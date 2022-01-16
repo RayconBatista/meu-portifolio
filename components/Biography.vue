@@ -32,7 +32,13 @@
 
 <script>
 export default {
-  name: "Biography"
+  name: "Biography",
+  jsonld() {
+    return {
+      "@context": "https://schema.org",
+      "@type": "Person"
+    };
+  }
 }
 </script>
 

@@ -15,6 +15,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'theme-color' },
       { itemprop:"logo", src:"/img/logo.webp" },
+      { itemprop:"description", content:"Projeto de desenvolvimento de portfólio pessoal criado pela AlphaDev." },
       {
         hid: 'description',
         name: 'description',
