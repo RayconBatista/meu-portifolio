@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex-shrink-0">
-          <nuxt-link to="/" class=""><img src="/img/logo.png" width="50" height="50" alt="Logo"></nuxt-link>
+          <nuxt-link to="/" class=""><img src="/img/logo.webp" width="50" height="50" alt="Logo"></nuxt-link>
         </div>
         <div class="flex items-center">
 
