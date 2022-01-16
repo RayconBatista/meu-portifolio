@@ -19,14 +19,13 @@
     </button>
 
     <button v-if="$colorMode.preference === 'light'" @click="$colorMode.preference = 'dark'">
-            <svg
+        <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-5 w-5"
               :class="{ 'text-white': $colorMode.value === 'dark' }"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
+              stroke="currentColor">
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"

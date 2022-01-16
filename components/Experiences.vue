@@ -6,8 +6,8 @@
           <div class="w-full px-4">
             <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
               <div class="mb-4">
-                <button @click="changeToExperience" class="text-white bg-green-500 font-medium px-3 py-2 rounded">Experiência</button>
-                <button @click="changeToAcademic" class="text-white bg-green-500 font-medium px-3 py-2 rounded">Formação Acadêmica</button>
+                <button @click="changeToExperience" class="text-white bg-green-800 font-medium px-3 py-2 rounded">Experiência</button>
+                <button @click="changeToAcademic" class="text-white bg-green-800 font-medium px-3 py-2 rounded">Formação Acadêmica</button>
               </div>
             </div>
           </div>
