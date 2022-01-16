@@ -205,11 +205,6 @@ export default {
     'nuxt-lazy-load',
     'nuxt-responsive-loader'
   ],
-
-  robots: {
-    UserAgent: '*',
-    Allow: '/'
-  },
   sitemap: {
     filter ({ routes }) {
       return routes.map(route => {

@@ -16,7 +16,7 @@
         </div>
         <div class="mt-8 text-center">
           <a href="#my-work" class="text-white bg-green-800 font-medium px-3 py-2 rounded">Ver o meu trabalho</a>
-          <a class="text-white bg-green-800 font-medium px-3 py-2 rounded">Contrate-me</a>
+          <nuxt-link to="contato" class="text-white bg-green-800 font-medium px-3 py-2 rounded">Contrate-me</nuxt-link>
         </div>
       </div>
 
