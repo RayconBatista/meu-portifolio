@@ -198,16 +198,10 @@ export default {
     'nuxt-lazy-load'
   ],
 
-  robots: [
-    {
-      UserAgent: 'Googlebot',
-      Disallow: '/user',
-    },
-    {
-      UserAgent: '*',
-      Disallow: '/admin',
-    },
-  ],
+  robots: {
+    UserAgent: '*',
+    Disallow: ''
+  },
   sitemap: {
     filter ({ routes }) {
       return routes.map(route => {
