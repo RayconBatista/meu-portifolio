@@ -7,13 +7,13 @@
         <ul class="flex items-center space-x-4">
           <li><nuxt-link class="dark:text-white" to="/" >Inicio</nuxt-link></li>
           <li><nuxt-link class="dark:text-white" to="/sobre" >Sobre</nuxt-link></li>
-          <li><nuxt-link class="dark:text-white" to="/" >Contato</nuxt-link></li>
+          <li><nuxt-link class="dark:text-white" to="/contato" >Contato</nuxt-link></li>
         </ul>
       </div>
       <div class="flex justify-center mt-4 lg:mt-0">
         <ul class="flex flex-row justify-center" >
           <li v-for="(item, index) in data" :key="index">
-            <a :href="item.url"><img class="mr-2" width="30" height="30" :src="item.img"/></a>
+            <a :href="item.url"><img class="mr-2" width="30" height="30" :src="item.img" :alt="item.name"/></a>
           </li>
         </ul>
       </div>

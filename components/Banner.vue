@@ -8,7 +8,7 @@
           <h1 class="text-gray-100 text-3xl">I'm Raycon Lima</h1>
           <ul class="flex flex-row justify-center" >
             <li v-for="(item, index) in data" :key="index">
-              <a :href="item.url"><img width="50" height="50" :src="item.img"/></a>
+              <a :href="item.url"><img width="50" height="50" :src="item.img" :alt="item.name"/></a>
             </li>
           </ul>
         </div>

@@ -10,7 +10,7 @@ export default {
     loading: false
   }),
   methods: {
-    start () {
+    start () {    './plugins/repository'
       this.loading = true
     },
     finish () {
