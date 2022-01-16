@@ -6,6 +6,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'meu-portifolio',
+    titleTemplate: 'meu-portifolio',
     htmlAttrs: {
       lang: 'pt-br'
     },
@@ -135,6 +136,7 @@ export default {
       { rel: 'preload', href: '/img/avatar_profile.webp', as: 'image'},
       { rel: 'preload', href: '/img/banner.webp', as: 'image'},
       { rel: 'preload', href: '/img/logo.webp', as: 'image'},
+      { hid: 'canonical', rel: 'canonical', 'content': 'https://rayconlimabatista.com.br' },
       { rel: 'icon', type: 'image/x-icon', href: '/img/logo.webp' },
       { rel: 'apple-touch-icon', href: '/img/logo.webp' },
     ]
@@ -200,12 +202,13 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    'nuxt-lazy-load'
+    'nuxt-lazy-load',
+    'nuxt-responsive-loader'
   ],
 
   robots: {
     UserAgent: '*',
-    Disallow: ''
+    Allow: '/'
   },
   sitemap: {
     filter ({ routes }) {

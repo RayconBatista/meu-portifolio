@@ -15,14 +15,8 @@
           </ul>
         </div>
         <div class="mt-8 text-center">
-          <button class="text-white bg-green-800 font-medium px-3 py-2 rounded">Ver o meu trabalho</button>
-          <button class="text-white bg-green-800 font-medium px-3 py-2 rounded">Contrate-me</button>
-<!--          <form action="" class="space-x-4">-->
-<!--            <section>-->
-<!--              <input  type="text" class="bg-grey-50 px-3 py-2 border border-gray-300 rounded text-gray-500 ">-->
-<!--              <button class="text-yellow-800 bg-yellow-500 font-medium px-3 py-2 rounded">Enviar</button>-->
-<!--            </section>-->
-<!--          </form>-->
+          <a href="#my-work" class="text-white bg-green-800 font-medium px-3 py-2 rounded">Ver o meu trabalho</a>
+          <a class="text-white bg-green-800 font-medium px-3 py-2 rounded">Contrate-me</a>
         </div>
       </div>
 
@@ -30,6 +24,14 @@
 
   </div>
 </template>
+
+<style scoped>
+.banner {
+  background: url('/img/banner.webp') no-repeat;
+  background-size: cover;
+  height: 450px
+}
+</style>
 
 <script>
 export default {
@@ -67,10 +69,4 @@ export default {
 }
 </script>
 
-<style scoped>
-  .banner {
-    background: url('/img/banner.webp') no-repeat;
-    background-size: cover;
-    height: 450px
-  }
-</style>
+
