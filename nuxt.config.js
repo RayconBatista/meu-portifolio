@@ -12,9 +12,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { rel: 'preload', href: '/img/avatar_profile.webp', as: 'image'},
-      { rel: 'preload', href: '/img/banner.webp', as: 'image'},
-      { rel: 'preload', href: '/img/logo.webp', as: 'image'},
+      { name: 'theme-color' },
       {
         hid: 'description',
         name: 'description',
@@ -134,7 +132,11 @@ export default {
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/img/logo.png' }
+      { rel: 'preload', href: '/img/avatar_profile.webp', as: 'image'},
+      { rel: 'preload', href: '/img/banner.webp', as: 'image'},
+      { rel: 'preload', href: '/img/logo.webp', as: 'image'},
+      { rel: 'icon', type: 'image/x-icon', href: '/img/logo.webp' },
+      { rel: 'apple-touch-icon', href: '/img/logo.webp' },
     ]
   },
 
