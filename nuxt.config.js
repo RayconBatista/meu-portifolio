@@ -1,3 +1,5 @@
+const siteUrl = process.env.BASE_URL || 'http://localhost:3000'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -194,9 +196,18 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/robots',
     '@nuxtjs/sitemap',
     'nuxt-lazy-load',
     'nuxt-responsive-loader'
+  ],
+
+  robots: [
+    {
+      UserAgent: '*',
+      Allow: '/',
+      Sitemap: `${siteUrl}/sitemap.xml`,
+    },
   ],
 
   sitemap: {
