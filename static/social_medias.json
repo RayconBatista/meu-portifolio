@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "name": "Facebook",
+        "url": "https://www.facebook.com/raycon.lima15",
+        "img": "https://img.icons8.com/color/48/000000/facebook.png"
+
+    },
+    {
+        "id": 2,
+        "name": "Instagram",
+        "url": "https://www.instagram.com/rayconlima_dev/",
+        "img": "https://img.icons8.com/color/48/000000/instagram-new--v1.png"
+
+    },
+    {
+        "id": 1,
+        "name": "Twitter",
+        "url": "https://twitter.com/RayconBatista",
+        "img": "https://img.icons8.com/color/48/000000/twitter--v1.png"
+    },
+    {
+        "id": 1,
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/raycon-lima-batista-50baa797/",
+        "img": "https://img.icons8.com/color/48/000000/linkedin.png"
+
+    },
+    {
+        "id": 1,
+        "name": "Github",
+        "url": "https://github.com/R4YC0NLima",
+        "img": "https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg"
+
+    }
+]

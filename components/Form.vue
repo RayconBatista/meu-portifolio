@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="max-w-xl mx-auto bg-white rounded-md shadow-sm">
+    <div class="max-w-xl mx-auto bg-green-500 dark:bg-white rounded-md shadow-sm">
       <div class="p-2">
         <form action="" method="POST">
           <div class="mb-6">

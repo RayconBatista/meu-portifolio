@@ -13,24 +13,26 @@
           </div>
         </div>
         <div class="flex flex-wrap justify-center container max-w-full mx-auto">
+
           <div v-show="experience" class="w-full md:w-2/5 lg:w-4/5 px-2">
-            <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow py-8 px-6 sm:p-10 lg:py-8 lg:px-4 xl:p-10 mb-10">
+            <div class="bg-green-500 dark:bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow py-8 px-6 sm:p-10 lg:py-8 lg:px-4 xl:p-10 mb-10">
               <h2 class="text-primary font-semibold text-lg block mb-1">
                 Desenvolvedor FullStack - Laravel, Vue e Flutter
               </h2>
 
-              <p class="font-bold bg-green-300 sm:w-1/3  p-1 rounded text-dark mb-5 text-[42px]">
+              <p class="font-bold bg-white dark:bg-green-300 sm:w-1/3  p-1 rounded text-dark mb-5 text-[42px]">
                 2020 - 2021
               </p>
             </div>
           </div>
+
           <div v-show="academic" class="w-full md:w-2/5 lg:w-4/5 px-2">
-            <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow shadow-pricing py-8 px-6 sm:p-10 lg:py-8 lg:px-4 xl:p-10 mb-10">
+            <div class="bg-green-500 dark:bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow shadow-pricing py-8 px-6 sm:p-10 lg:py-8 lg:px-4 xl:p-10 mb-10">
               <article>
                 <h2 class="text-primary font-semibold text-lg block mb-1">
                   Análise e Desenvolvimento de Sistema
                 </h2>
-                <p class="font-bold bg-green-300 sm:w-1/3  p-1 rounded text-dark mb-5 text-[42px]">
+                <p class="font-bold bg-white dark:bg-green-300  sm:w-1/3  p-1 rounded text-dark mb-5 text-[42px]">
                   Cursando
                 </p>
               </article>
@@ -38,12 +40,13 @@
                 <h2 class="text-primary font-semibold text-lg block mb-1">
                   Técnico em Redes de Computadores
                 </h2>
-                <p class="font-bold bg-green-300 sm:w-1/3 p-1 rounded text-dark mb-5 text-[42px]">
+                <p class="font-bold bg-white dark:bg-green-300  sm:w-1/3 p-1 rounded text-dark mb-5 text-[42px]">
                   2016 - 2018
                 </p>
               </article>
             </div>
           </div>
+          
         </div>
       </div>
     </section>

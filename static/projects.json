@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "PayFlow",
+        "type": "academic",
+        "tech": "Flutter",
+        "description": "O projeto PayFlow foi desenvolvido na Next Level Week Together.",
+        "repo": "https://github.com/meus-projetos-basicos/nlw_pay_flow"
+    },
+    {
+        "id": 2,
+        "name": "Pokedex",
+        "type": "personal",
+        "tech": "Laravel",
+        "description": "Lista de pokemons em Laravel (php) e VueJs com filtros de pesquisas realizado como testes de desenvolvimento.",
+        "repo": "https://github.com/meus-projetos-basicos/pokedex-php"
+    },
+    {
+        "id": 2,
+        "name": "Sistema de assinatura",
+        "type": "academic",
+        "tech": "Laravel",
+        "description": "Sistema de assinatura",
+        "repo": "https://github.com/R4YC0NLima/laravel-subscrition"
+    }    
+]

@@ -1,4 +1,5 @@
 <template>
+  
   <div class="container flex justify-center mx-auto px-4 py-10 sm:py-8 md:py-10 xl:py-5 h-full">
     <div class="w-full md:w-2/5 lg:w-4/5 px-2">
       <div class="text-center lg:mb-8">
@@ -23,14 +24,16 @@
           <div class="space-y-4">
             <h4 class="text-2xl md:text-3xl font-semibold">Laravel Subscription</h4>
             <p>Projeto educacional para planos de assinatura </p>
+             <a target="_blank" href="https://github.com/R4YC0NLima/laravel-subscrition">Sistema de Assinatura</a>
+            
           </div>
         </div>
-        <div class="bg-white transition-shadow duration-200 shadow hover:shadow-xl p-6 rounded-lg space-y-6">
+        <!-- <div class="bg-white transition-shadow duration-200 shadow hover:shadow-xl p-6 rounded-lg space-y-6">
           <div class="space-y-4">
             <h4 class="text-2xl md:text-3xl font-semibold">The core Gráfica</h4>
             <p>Projeto profissional para um gráfica local. </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

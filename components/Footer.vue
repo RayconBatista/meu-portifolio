@@ -7,6 +7,7 @@
         <ul class="flex items-center space-x-4">
           <li><nuxt-link class="dark:text-white" to="/" >Inicio</nuxt-link></li>
           <li><nuxt-link class="dark:text-white" to="/sobre" >Sobre</nuxt-link></li>
+          <li><nuxt-link class="dark:text-white" to="/portfolio" >Projetos</nuxt-link></li>
           <li><nuxt-link class="dark:text-white" to="/contato" >Contato</nuxt-link></li>
         </ul>
       </div>
@@ -22,36 +23,12 @@
 </template>
 
 <script>
+import data from '~/static/social_medias.json'
 export default {
   name: "Footer",
   data() {
     return {
-      data: [
-        {
-          id: 1,
-          name: 'facebook',
-          img: 'https://img.icons8.com/color/48/000000/facebook.png',
-          url: 'https://www.facebook.com'
-        },
-        {
-          id: 2,
-          name: 'instagram',
-          img: 'https://img.icons8.com/color/48/000000/instagram-new--v1.png',
-          url: 'https://www.instagram.com'
-        },
-        {
-          id: 3,
-          name: 'twitter',
-          img: 'https://img.icons8.com/color/48/000000/twitter--v1.png',
-          url: 'https://www.twitter.com'
-        },
-        {
-          id: 4,
-          name: 'linkedin',
-          img: 'https://img.icons8.com/color/48/000000/linkedin.png',
-          url: 'https://www.linkedin.com'
-        },
-      ]
+      data
     }
   }
 }

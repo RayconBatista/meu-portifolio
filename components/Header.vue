@@ -10,16 +10,16 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-6">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <nuxt-link to="/" :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <nuxt-link to="/" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Inicio
               </nuxt-link>
-              <nuxt-link to="/sobre" :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <nuxt-link to="/sobre" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Sobre
               </nuxt-link>
-              <nuxt-link to="/projetos" :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <nuxt-link to="/portfolio" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Projetos
               </nuxt-link>
-              <nuxt-link to="/contato" :exact-active-class="active ? 'bg-gray-900' : ''" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <nuxt-link to="/contato" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Contatos
               </nuxt-link>
               <AppDarkModeToggle />
@@ -51,16 +51,16 @@
     <div class="md:hidden" v-if="showMenu" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <nuxt-link to="/" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Home
         </nuxt-link>
-        <nuxt-link to="/sobre" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/sobre" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Sobre
         </nuxt-link>
-        <nuxt-link to="/projetos" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/portfolio" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Projetos
         </nuxt-link>
-        <nuxt-link to="/contato" :exact-active-class="active ? 'bg-gray-900' : ''" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/contato" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
           Contatos
         </nuxt-link>
       </div>
@@ -76,6 +76,9 @@ export default {
       showMenu: false,
       active: false
     }
+  },
+  mounted() {
+    console.log(this.active);
   },
   methods: {
     toggleNavbar: function(){
