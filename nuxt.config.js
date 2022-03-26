@@ -7,10 +7,10 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'meu-portifolio',
-    titleTemplate: 'meu-portifolio',
+    title: 'Raycon Lima Batista',
+    titleTemplate: 'portifolio',
     htmlAttrs: {
-      lang: 'pt-br'
+      lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
@@ -31,7 +31,7 @@ export default {
       {
         hid: 'og:type',
         property: 'og:type',
-        content: 'article',
+        content: 'website',
       },
       {
         hid: 'og:site_name',
@@ -51,12 +51,12 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/img/avatar_profile.webp',
+        content: 'https://rayconlimabatista.com.br/img/avatar_profile.webp',
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: '/img/avatar_profile.webp',
+        content: 'https://rayconlimabatista.com.br/img/avatar_profile.webp',
       },
       {
         hid: 'og:description',
