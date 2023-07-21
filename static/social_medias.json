@@ -4,14 +4,12 @@
         "name": "Facebook",
         "url": "https://www.facebook.com/raycon.lima15",
         "img": "https://img.icons8.com/color/48/000000/facebook.png"
-
     },
     {
         "id": 2,
         "name": "Instagram",
         "url": "https://www.instagram.com/rayconlima_dev/",
         "img": "https://img.icons8.com/color/48/000000/instagram-new--v1.png"
-
     },
     {
         "id": 1,
@@ -22,15 +20,13 @@
     {
         "id": 1,
         "name": "Linkedin",
-        "url": "https://www.linkedin.com/in/raycon-lima-batista-50baa797/",
+        "url": "https://www.linkedin.com/in/raycon-lima-batista/",
         "img": "https://img.icons8.com/color/48/000000/linkedin.png"
-
     },
     {
         "id": 1,
         "name": "Github",
-        "url": "https://github.com/R4YC0NLima",
-        "img": "https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg"
-
+        "url": "https://github.com/RayconBatista",
+        "img": "https://cdn-icons-png.flaticon.com/512/733/733553.png"
     }
 ]

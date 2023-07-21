@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex-shrink-0">
           <nuxt-link to="/" class=""><img src="/img/logo.webp" width="50" height="50" alt="Logo"></nuxt-link>
@@ -8,27 +8,27 @@
         <div class="flex items-center">
 
           <div class="hidden md:block">
-            <div class="ml-10 flex items-baseline space-x-6">
+            <div class="flex items-baseline ml-10 space-x-6">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <nuxt-link to="/" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <nuxt-link to="/" class="px-3 py-2 text-sm font-medium rounded-md dark:text-white">
                 Inicio
               </nuxt-link>
-              <nuxt-link to="/sobre" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <nuxt-link to="/sobre" class="px-3 py-2 text-sm font-medium rounded-md dark:text-white">
                 Sobre
               </nuxt-link>
-              <nuxt-link to="/portfolio" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <nuxt-link to="/portfolio" class="px-3 py-2 text-sm font-medium rounded-md dark:text-white">
                 Projetos
               </nuxt-link>
-              <nuxt-link to="/contato" class="dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <!-- <nuxt-link to="/contato" class="px-3 py-2 text-sm font-medium rounded-md dark:text-white">
                 Contatos
-              </nuxt-link>
+              </nuxt-link> -->
               <AppDarkModeToggle />
             </div>
           </div>
         </div>
-        <div class="-mr-2 flex md:hidden">
+        <div class="flex -mr-2 md:hidden">
           <!-- Mobile menu button -->
-          <div class="flex justify-center items-center">
+          <div class="flex items-center justify-center">
             <AppDarkModeToggle class="mr-3" />
             <button type="button" @click="showMenu = !showMenu" aria-controls="mobile-menu" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
@@ -51,18 +51,18 @@
     <div class="md:hidden" v-if="showMenu" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <nuxt-link to="/" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/" class="block px-3 py-2 text-base font-medium rounded-md  dark:text-white">
           Home
         </nuxt-link>
-        <nuxt-link to="/sobre" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/sobre" class="block px-3 py-2 text-base font-medium rounded-md  dark:text-white">
           Sobre
         </nuxt-link>
-        <nuxt-link to="/portfolio" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <nuxt-link to="/portfolio" class="block px-3 py-2 text-base font-medium rounded-md  dark:text-white">
           Projetos
         </nuxt-link>
-        <nuxt-link to="/contato" class=" dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <!-- <nuxt-link to="/contato" class="block px-3 py-2 text-base font-medium rounded-md  dark:text-white">
           Contatos
-        </nuxt-link>
+        </nuxt-link> -->
       </div>
     </div>
   </nav>

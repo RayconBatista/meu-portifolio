@@ -1,4 +1,4 @@
-const siteUrl = process.env.BASE_URL || 'http://localhost:3000'
+const siteUrl = process.env.BASE_URL || 'http://localhost:3000';
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -8,10 +8,18 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Raycon Lima Batista',
-    titleTemplate: 'portifolio',
+    titleTemplate: 'Dev Raycon Lima',
     htmlAttrs: {
       lang: 'en'
     },
+    link: [
+      { rel: 'preload', href: '/img/avatar_profile.webp', as: 'image'},
+      { rel: 'preload', href: '/img/banner.webp', as: 'image'},
+      { rel: 'preload', href: '/img/logo.webp', as: 'image'},
+      { hid: 'canonical', rel: 'canonical', 'content': 'https://rayconlimabatista.com.br' },
+      { rel: 'icon', type: 'image/x-icon', href: '/img/logo.webp' },
+      { rel: 'apple-touch-icon', href: '/img/logo.webp' },
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -135,23 +143,23 @@ export default {
         property: 'twitter:url',
         content: 'https://rayconlimabatista.com.br',
       },
-    ],
-    link: [
-      { rel: 'preload', href: '/img/avatar_profile.webp', as: 'image'},
-      { rel: 'preload', href: '/img/banner.webp', as: 'image'},
-      { rel: 'preload', href: '/img/logo.webp', as: 'image'},
-      { hid: 'canonical', rel: 'canonical', 'content': 'https://rayconlimabatista.com.br' },
-      { rel: 'icon', type: 'image/x-icon', href: '/img/logo.webp' },
-      { rel: 'apple-touch-icon', href: '/img/logo.webp' },
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+  css: [],
+
+  image: {
+    domains: [
+      'https://img.icons8.com',
+      'https://cdn-icons-png.flaticon.com'
+    ]
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    { src: '~/plugins/meta.js' },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -202,8 +210,9 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
+    '@nuxtjs/meta',
     'nuxt-lazy-load',
-    'nuxt-responsive-loader'
+    'nuxt-responsive-loader',
   ],
 
   robots: [
@@ -220,17 +229,13 @@ export default {
     routes: [
       '/sobre',
       '/projetos',
-      '/contato',
     ],
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: 'https://jsonplaceholder.typicode.com/'
-  },
+  axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
 }

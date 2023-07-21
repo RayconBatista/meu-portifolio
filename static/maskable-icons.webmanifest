@@ -1,0 +1,22 @@
+{
+  "name": "Meu portifolio",
+  "short_name": "App Name",
+  "icons": [
+    {
+      "url": "https://img.icons8.com/color/48/000000/facebook.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "url": "https://img.icons8.com/color/48/000000/instagram-new--v1.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f0f0",
+  "theme_color": "#333333"
+}
